@@ -21,14 +21,24 @@ document.addEventListener('DOMContentLoaded', function() {
     function displayProductDetails(product) {
         const productDetailsDiv = document.getElementById('product-details');
         productDetailsDiv.innerHTML = `
-            <div class="col-md-6">
-                <img src="${product.image}" class="img-fluid" alt="${product.name}">
-            </div>
-            <div class="col-md-6">
-                <h2>${product.name}</h2>
-                <p>Precio: ${product.price}€</p>
-                <p>${product.description}</p>
-            </div>
+            <section id="novedades" class="py-5">
+                <div class="container">
+                    <!-- Línea amarilla encima del título -->
+                    <div class="border-top border-warning mb-2" style="border-width: 5px;"></div>
+                    <h2 class="text-center mb-4">${product.name}</h2>
+
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="${product.image}" class="img-fluid img-thumbnail" alt="${product.name}">
+                        </div>
+                        <div class="col-md-6">
+                            <p>${product.description}</p>
+                            <p>Precio: ${product.price}€</p>
+                            <button class="btn btn-dark btn-lg">Anadir a la cesta</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
         `;
     }
 
