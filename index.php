@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <?php include 'copia.html'; ?>
     <!-- NAVBAR/HEADER------------------------------------------------------------------------------------------------------------------------------------>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
