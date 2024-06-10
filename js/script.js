@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="col-md-6">
                             <p>${product.description}</p>
                             <p>Precio: ${product.price}€</p>
-                            <button id="add-to-cart" class="btn btn-dark btn-lg">Anadir a la cesta</button>
+                            <button id="add-to-cart" class="btn btn-success">Anadir a la cesta</button>
                         </div>
                     </div>
                 </div>
