@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
         productDetailsDiv.innerHTML = `
             <section id="novedades" class="py-5">
                 <div class="container">
-                    <!-- Línea amarilla encima del título -->
                     <div class="border-top border-warning mb-2" style="border-width: 5px;"></div>
                     <h2 class="text-center mb-4">${product.name}</h2>
 
