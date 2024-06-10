@@ -8,6 +8,44 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+    <!-- NAVBAR/HEADER------------------------------------------------------------------------------------------------------------------------------------>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="FireChip Logo">
+                Yourhomeplan
+            </a>
+            <div class="d-flex flex-row-reverse">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#novedades">Novedades</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#productos">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#ofertas">Ofertas</a>
+                  </li>
+              </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="login.html">
+                          <i class="fas fa-user"></i> Login
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="carrito.html">
+                          <i class="fas fa-shopping-cart"></i> Carrito
+                      </a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!--PRODUCTO------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
     <div class="container py-5">
         <div id="product-details" class="row">
             <!-- Contenido del producto cargado aquí -->
@@ -19,5 +57,63 @@
         </div>
     </div>
     <script src="js/script.js"></script>
+
+    <!--A MEDIDA ----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<section id="novedades" class="py-5">
+    <div class="container">
+        <!-- Línea amarilla encima del título -->
+        <div class="border-top border-warning mb-2" style="border-width: 5px;"></div>
+        <h2 class="text-center mb-4">Chips electrónicos a medida</h2>
+
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="images/108.BPI-M2BERRY.jpg" class="img-fluid img-thumbnail" alt="Foto" />
+            </div>
+            <div class="col-md-6">
+                <p>Transformamos ideas en chips a medida. Con tecnología punta y experiencia, creamos soluciones personalizadas para cada cliente.</p>
+                <button class="btn btn-dark btn-lg">Quiero saber más</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!--FOOTER------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <footer class="bg-dark text-light text-center py-3 mt-auto">
+        <div class="container">
+            <div class="d-flex justify-content-center my-3">
+                <a href="https://www.instagram.com" class="btn btn-outline-light btn-lg mx-2" role="button" aria-pressed="true" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/tu-numero-de-whatsapp" class="btn btn-outline-light btn-lg mx-2" role="button" aria-pressed="true" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.facebook.com" class="btn btn-outline-light btn-lg mx-2" role="button" aria-pressed="true" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="mailto:tu-email@gmail.com" class="btn btn-outline-light btn-lg mx-2" role="button" aria-pressed="true">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center my-3">
+                <a href="contacto.html" style="color: rgb(255, 255, 255); margin-right: 10px;">
+                    <p>Contacto</p>
+                </a>
+                <a href="shipping-policy.html" style="color: rgb(255, 255, 255); margin-right: 10px;">
+                    <p>Politica de envío</p>
+                </a>
+                <a href="politica-privacidad.html" style="color: rgb(255, 255, 255); margin-right: 10px;">
+                    <p>Politica de privacidad</p>
+                </a>
+                <a href="politica-rembolso.html" style="color: rgb(255, 255, 255); margin-right: 10px;">
+                    <p>Politica de reembolso</p>
+                </a>
+                <a href="terminos-servicio.html" style="color: rgb(255, 255, 255);">
+                    <p>Términos de servicio</p>
+                </a>
+            </div>
+            <p>&copy; 2024 Yourhomeplan</p>
+        </div>
+      </footer>
 </body>
 </html>
