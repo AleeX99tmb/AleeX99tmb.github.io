@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function fetchProductDetails(id) {
-        fetch(`/products/product${id}.json`)
+        fetch(`/productos/product${id}.json`)
             .then(response => response.json())
             .then(data => {
                 displayProductDetails(data);
