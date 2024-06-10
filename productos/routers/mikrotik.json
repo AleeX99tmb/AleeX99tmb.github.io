@@ -1,7 +1,7 @@
 {
     "id": 2,
-    "name": "Novedad 2",
+    "name": "Mikrotik",
     "price": 99,
     "description": "Descripción detallada del producto 1.",
-    "image": "images/routers/1.jpeg"
+    "image": "images/routers/mikrotik.jpeg"
 }
